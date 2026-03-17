@@ -7,6 +7,7 @@ load_dotenv("backend/.env")
 
 from .database import engine
 from .models import Base
+Base.metadata.create_all(bind=engine)
 from fastapi.middleware.cors import CORSMiddleware
 from .routes import student_routes, deadline_routes, notice_routes
 
