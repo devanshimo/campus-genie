@@ -6,6 +6,7 @@ from dotenv import load_dotenv # <-- 1. Import this
 load_dotenv("backend/.env") 
 
 from .database import engine
+from . import models
 from .models import Base
 Base.metadata.create_all(bind=engine)
 from fastapi.middleware.cors import CORSMiddleware
