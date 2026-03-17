@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.env.local
+token.json
+credentials.json
+campus_genie.db
+.DS_Store
