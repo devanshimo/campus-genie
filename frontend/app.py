@@ -7,7 +7,7 @@ import random
 
 # --- CONFIGURATION ---
 # Using 127.0.0.1 is much more reliable than localhost on Windows
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://campusgenie-xyz.onrender.com"
 st.set_page_config(page_title="CampusGenie", page_icon="🧞", layout="wide")
 
 # --- LOAD LOGO AS BASE64 ---
